@@ -2,7 +2,6 @@ package chap07.item45;
 
 import java.io.File;
 import java.io.IOException;
-import java.math.BigInteger;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -10,13 +9,12 @@ import java.util.*;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.groupingBy;
-import static java.math.BigInteger.*;
 
 public class Anagrams {
     public static void main(String[] args) throws IOException {
 //        version1(args);
 //        version2(args);
-//        version3();
+        version3();
     }
 
     private static void version3() {
